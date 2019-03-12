@@ -11,7 +11,7 @@ email: contactontdex@gmail.com
 description:  On March 15, 2019, Singapore, the first decentralized trading 
               platform Ontdex (www.ontdex.io) on the new generation of 
               high-performance public chain ontology was officially launched.
-baseurl: "/post" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "contactontdex@gmail.com" # the base hostname & protocol for your site
 twitter_username: OntDex Team
 github_username:  Nero
