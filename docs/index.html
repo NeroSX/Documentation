@@ -10,7 +10,11 @@ layout: default
   </div>
   <div class="posts card">
       <div class="card-content white-text">
-      <span class="card-title">Posts</span>
+        <div style="display:flex">
+            <span class="card-title">Posts</span>
+            <span class="card-title" href="guide">Guide</span>
+        </div>
+      <!-- <span class="card-title">Posts</span> -->
 
       <ul class="post-list">
         {% for post in site.posts %}
@@ -21,7 +25,7 @@ layout: default
         {% endfor %}
       </ul>
 
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <p class="rss-subscribe"></p>
       </div>
    </div>
 
