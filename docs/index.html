@@ -12,7 +12,7 @@ layout: default
       <div class="card-content white-text">
         <div style="display:flex">
             <span class="card-title">Posts</span>
-            <span class="card-title" href="guide">Guide</span>
+            <!-- <span class="card-title" href="guide">Guide</span> -->
         </div>
       <!-- <span class="card-title">Posts</span> -->
 
@@ -20,9 +20,7 @@ layout: default
         {% for post in site.posts %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <a class="post-link" href="/{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>            
-            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>            
-            <a class="post-link" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>            
+            <a class="post-link" href="/{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>                  
           </li>
         {% endfor %}
       </ul>
